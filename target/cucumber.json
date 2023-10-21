@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-21T00:12:42.255Z",
+        "line": 2,
+        "name": "I want to using feature search on google",
+        "description": "",
+        "id": "search-google;i-want-to-using-feature-search-on-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2803001100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Open browser",
+            "match": {
+              "location": "StepDef.SearchGoogle.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4819784200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open website Google",
+            "match": {
+              "location": "StepDef.SearchGoogle.openWebsiteGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145991400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Located on google website",
+            "match": {
+              "location": "StepDef.SearchGoogle.locatedOnGoogleWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416425800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search \"Wisnu Munawar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wisnu Munawar\"",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDef.SearchGoogle.iSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4558372000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Showing result related with \"Wisnu Munawar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wisnu Munawar\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDef.SearchGoogle.showingResultRelatedWith(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Google",
+    "description": "",
+    "id": "search-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchGoogle.feature",
+    "tags": []
+  }
+]
